@@ -1,4 +1,3 @@
-import MonComposant from "@/components/MonComposant"
 
 export default function Home() {
   return (
@@ -6,7 +5,6 @@ export default function Home() {
     <div className="bg-red-500 h-1/4">
       Bonjour
     </div>
-    <MonComposant/>
     </>
   );
 }
