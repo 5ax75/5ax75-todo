@@ -3,19 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --background: #191C19;
-  --text: #ffffff;
-  --accent: #4CAE4F;
+	--background: #191c19;
+	--text: #ffffff;
+	--accent: #4cae4f;
+	--secondary: #282b28;
 }
 
 body {
-  color: var(--text);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+	color: var(--text);
+	background: var(--background);
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+	.text-balance {
+		text-wrap: balance;
+	}
 }
