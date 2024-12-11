@@ -1,13 +1,7 @@
-import Navbar from '@/components/navbar';
-import Sidebar from '@/components/sidebar';
+import React from 'react';
 
-const dashboard = () => {
-	return (
-		<div>
-			<Navbar />
-			<Sidebar></Sidebar>
-		</div>
-	);
+const page = () => {
+	return <div>Accueil</div>;
 };
 
-export default dashboard;
+export default page;

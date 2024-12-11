@@ -13,6 +13,7 @@ const config: Config = {
 				text: 'var(--text)',
 				accent: 'var(--accent)',
 				secondary: 'var(--secondary)',
+				primary: 'var(--primary)',
 			},
 		},
 	},
