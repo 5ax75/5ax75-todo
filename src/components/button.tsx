@@ -21,7 +21,7 @@ export default function Button({ text, link, background = true }: ButtonProps) {
 		</Link>
 	) : (
 		<button
-			className=" rounded-md py-1 px-2"
+			className=" rounded-md py-1 px-3"
 			style={{
 				background: background ? '#1C5E21' : 'transparent',
 				fontSize: '1.5rem',
