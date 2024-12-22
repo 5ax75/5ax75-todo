@@ -15,6 +15,9 @@ const config: Config = {
         secondary: "var(--secondary)",
         primary: "var(--primary)",
       },
+      backgroundImage: {
+        "green-gradient": "linear-gradient(to top right, #1C5E22, #4CAE4F)",
+      },
     },
   },
   plugins: [],
