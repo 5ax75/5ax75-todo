@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #191c19;
+  --text: #ffffff;
+  --accent: #4cae4f;
+  --secondary: #282b28;
+  --primary: #1c5e21;
+}
+
+body {
+  color: var(--text);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
